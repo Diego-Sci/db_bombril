@@ -5,6 +5,7 @@ import time
 
 def tempo():
   time.sleep(2)
+  return tempo()
 
 pd.press("win")
 time.sleep(2)
