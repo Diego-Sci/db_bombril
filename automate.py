@@ -1,7 +1,10 @@
 #proceso de automação
 
 import pyautogui as pd
+import os
 import time
+
+time.PAUSE(0.3)
 
 def tempo():
   time.sleep(2)
